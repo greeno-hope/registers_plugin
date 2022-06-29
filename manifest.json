@@ -1,0 +1,22 @@
+{
+  "name": "CSC Registers Assistant",
+  "version": "0.1",
+  "description": "Extension loads a zoom chat text file and marks registers from it",
+  "manifest_version": 2,
+  "background": {
+    "persistent": true,
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "48": "images/icon128.png",
+      "128": "images/icon128.png"
+    }
+  }
+}
